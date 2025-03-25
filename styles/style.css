@@ -197,3 +197,46 @@
   color: #555;
   margin-bottom: 30px;
 }
+
+.donation-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .taka{
+    background-color: #ffb400;
+    color: #ffb400;
+    f
+  }
+  .donation-card {
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .donation-input {
+    width: 500px;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .donate-button {
+    background: rgb(0, 106, 80);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
