@@ -1,0 +1,51 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(88, 120, 104);
+    color: black;
+    padding: 50px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: fira sans;
+  }
+  .p{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: bold;
+  }
+  .banner-content {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .banner-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .banner-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
